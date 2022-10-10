@@ -7,15 +7,29 @@
     .container {
         max-width: 1240px;
     }
+
 }
 
-@media screen and (max-width: 1440px) {
-    
-   
+
+@media screen and (max-width: 1040px) {
+
+.container_988 {
+  max-width: 91.5%!important;
 }
 
+.container_1124 {
+  max-width: 100%!important;
+}
+
+}
 
 @media screen and (max-width: 990px) {
+  .header_res {
+    top: 0;
+  }
+  .mt_990 {
+    margin-top: 67px;
+  }
   .main .main_p{
     padding: 0 20px;
       }
@@ -339,14 +353,468 @@ justify-content: center;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead_res_container img {
+    width: 28%!important;
+  }
+  .lead_res_container .p {
+    width: 77%!important;
+}
+  .res_lead_list li {
+    width: 118px!important;
+    margin-right: 0!important;
+}
+  .lead_res_container {
+    padding: 40px 20px 89px!important;
+}
+  .lead_res_container .h {
+    font-size: 32px!important;
+    line-height: 32px!important;
+  }
+}
+
 
 @media screen and (max-width: 430px) {
+  .container_988 {
+    max-width: 100%!important;
+    margin: 0 20px!important;
+  }
+
   
 .vinetca {
   left: -28%!important;
   bottom: -26%!important;
 }
 }
+
+
+/* /RESULT/////////////////////////////////////////////////////////// */
+.container_988 {
+  max-width: 988px;
+  margin: auto;
+}
+.container_1124 {
+  max-width: 1124px;
+  margin: auto;
+}
+.header_btn_result{
+width: fit-content;
+padding: 8px 20px;
+}
+
+.lead_res_container{
+  background: #272929;
+  border-radius: 30px;
+  padding: 68px 68px 44px;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lead_res_container .h {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  width: 93%;
+  align-self: center;
+  z-index: 1;
+}
+.lead_res_container .p {
+  width: 41%;
+  align-self: center;
+  z-index: 1;
+}
+.res_lead_list {
+  align-self: center;
+  z-index: 1;
+}
+
+.res_lead_list li{
+  width: 152px;
+  margin-right: 15px;
+}
+.res_lead_list li:last-child{
+  margin-right: 0;
+}
+
+.lead_res_container img {
+  position: absolute;
+  z-index: 0;
+  width: 25%;
+  bottom: 0;
+}
+.lead_res_container .left {
+  left: 0;
+}
+.lead_res_container .right {
+  right: 0;
+}
+
+.res_diagram_container {
+  background: inherit;  
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+  border-radius: 30px;
+  margin: 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.res_diagram_container .h {
+  text-align: center;
+  width: 50%;
+  align-self: center;
+}
+
+.my_legend{
+    position: absolute;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+}
+.my_legend_1{
+  top: 37%;
+  left: 8.5%;
+}
+
+.my_legend_2{
+  top: 52%;
+  left: 25.5%;
+}
+
+.my_legend_3{
+  top: 70%;
+    right: 10%;
+}
+
+
+.my_legend .label{
+  background: #F3D1FF;
+  box-shadow: 0px 0px 30px rgba(222, 128, 255, 0.25);
+  border-radius: 8px;
+  padding: 6px 12px;
+  width: fit-content;
+  align-self: end; 
+}
+.my_legend_1 .label{
+  background: #F3D1FF;
+}
+.my_legend_2 .label{
+  background: #FCEBBA;
+}
+.my_legend_3 .label{
+  background: #B8E87C;
+}
+
+.res_diagram_container img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 18%;
+}
+
+.diagnostica_cards_res{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.diagnostica_cards_res li{
+  background: #F3D1FF;
+  border-radius: 30px;
+  padding: 45px 50px;
+}
+
+.diagnostica_cards_res li:first-child{
+  background: #F3D1FF;
+}
+.diagnostica_cards_res li:last-child{
+  background: #FCEBBA;
+}
+.index_m_container{
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.index_m_container .h {
+  text-align: center;
+  width: 90%;
+  align-self: center;
+}
+.index_m_container .p {
+  text-align: center;
+  align-self: center;
+  width: 50%;
+}
+.index_m_res {
+  background: #056B53;
+  border-radius: 24px;
+  padding: 12px 32px;
+  width: fit-content;
+  color: white;
+  align-self: center;
+}
+.res_line_container {
+  max-width: 652px;
+  align-self: center;
+}
+
+.text_labels{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.text_labels li:nth-child(2n) {
+  text-align: center;
+}
+.text_labels li:nth-child(3n) {
+  text-align: end;
+}
+
+.eating_plan_container{
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px rgb(66 74 72 / 6%);
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.eating_plan_container .h{
+  align-self: center;
+}
+
+.eating_plan_container .p{
+  align-self: center;
+  width: 50%;
+  text-align: center;
+}
+
+.plan_card{
+  padding: 20px;
+  background: #056B53;
+  border-radius: 24px;
+  color: white;
+  position: relative;
+  margin-right: 20px;
+}
+.plan_card img {
+  width: 48px;
+  height: 48px;
+}
+.plan_card label{
+  position: absolute;
+  top: -10px;
+  right: 0;
+  background: #1E1F1F;
+  border-radius: 8px;
+  transform: rotate(1deg);
+  padding: 6px 12px;
+}
+.slick-list{
+  overflow: inherit!important;
+}
+.slick-slider{
+  padding-left: 65px
+
+}
+
+.last_cards_res{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.last_cards_res li{
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+border-radius: 30px;
+flex-direction: column;
+text-align: center;
+padding: 40px;
+}
+
+
+.last_cards_res li img{
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+.last_cards_res li .p{
+ align-self: center;
+}
+.my_btn_green_fit {
+  width: fit-content;
+  padding: 12px 24px;
+}
+
+.lead_meal_container{
+  padding-bottom: 68px;
+}
+
+.lead_meal_container .left_meal {
+  top: 0;
+  left: 0;
+  width: 21%;
+}
+.lead_meal_container .right_meal {
+  bottom: 0;
+  right: 0;
+  width: 21%;
+}
+
+.advandages_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.advandages_list li{
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+border-radius: 18px;
+padding: 20px;
+}
+.advandages_list li img{
+ transform: translate(0, -5px);
+}
+.reviews_list .first_column{
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 20px;
+  width: 228%;
+}
+.reviews_list img {
+  height: 32px;
+}
+.reviews_list .second_column{
+  width: max-content;
+} 
+.reviews_list .second_column .item{
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+  border-radius: 30px;
+  padding: 20px;
+} 
+.item:first-child{
+  margin-bottom: 20px;
+}
+.buy_container{
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* gap: 20px; */
+  margin-top: 20px;
+}
+.buy_container li{
+  width: 49%;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.buy_container li:first-child{
+  background: #056B53;
+  color: white;
+}
+.buy_container li:last-child{
+  background: #FFFFFF;
+  padding: 40px;
+  box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
+border-radius: 30px;
+}
+
+.buy_container li .h{
+  align-self: center;
+  width: 94%;
+}
+.buy_container li .p{
+  align-self: center;
+}
+.sparkles{
+  align-self: center;
+  width: 80px;
+  height: 80px;
+}
+.sale_label{
+  position: absolute;
+    top: -38px;
+    left: -44px;
+    width: 143px;
+}
+ /* для элемента input c type="checkbox" */
+ .custom-checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label, связанного с .custom-checkbox */
+.custom-checkbox+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента before со следующими стилями */
+.custom-checkbox+label::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+/* стили для чекбокса, находящегося в состоянии checked */
+.custom-checkbox:checked+label::before {
+  background-image: url('../images/checkbox_active.svg');
+  background-size: auto;
+
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled+label::before {
+  background-color: #e9ecef;
+}
+.line_throught{
+  width: 125px;
+  height: 2px;
+  background: #68B6A3;
+  transform: translate(0px, -13px) rotate(-9deg);
+}
+.old_price_buy {
+  color: #68B6A3;
+  position: relative;
+  width: 33%;
+  align-self: center;
+}
+.buy_meal_btn{
+  width: 97%;
+  align-self: center;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 35px;
+  margin: 8px;
+  color: #1E1F1F;
+  padding: 12px 0;
+  cursor: pointer;
+}
+/* /RESULT/////////////////////////////////////////////////////////// */
+
 
 /* /MOBILE-MENU/////////////////////////////////////////////////////////// */
  
