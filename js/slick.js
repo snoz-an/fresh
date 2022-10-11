@@ -12,17 +12,11 @@ $(document).ready(function(){
       prevArrow: $('.eating_plan_slider-prev'),
       nextArrow: $('.eating_plan_slider-next'),
       responsive: [
-        {
-          breakpoint: 1465,
-          settings: {
-            slidesToShow: 3,
-          }
-        },
         
           {
             breakpoint: 1000,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 3,
               
             }
           },
@@ -30,8 +24,7 @@ $(document).ready(function(){
           {
             breakpoint: 573,
             settings: {
-              slidesToShow: 1.05,
-              dots: true,
+              slidesToShow: 2,
             }
           }
       ]

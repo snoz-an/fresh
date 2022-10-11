@@ -16,11 +16,12 @@
 .container_988 {
   max-width: 91.5%!important;
 }
-
+.container_988_2 {
+  max-width: 91.5%!important;
+}
 .container_1124 {
   max-width: 100%!important;
 }
-
 }
 
 @media screen and (max-width: 990px) {
@@ -354,6 +355,109 @@ justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
+  .buy_container li:last-child {
+    padding: 20px!important;
+    margin-bottom: 40px;
+}
+.buy_container li:first-child {
+  margin-bottom: 20px!important;
+}
+  .sparkles {
+    width: 56px!important;
+    height: 56px!important;
+}
+  .sale_label {
+      top: -54px!important;
+      left: -24px!important;
+      width: 120px!important;
+}
+  .buy_container li {
+    width: 100%!important;
+}
+  .reviews_list img {
+    height: 20px!important;
+}
+  .reviews_list .second_column {
+    width: 100%!important;
+}
+  .reviews_list .first_column {
+    width: 100%!important;
+}
+  .advandages_list {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 12px!important;
+}
+  .lead_meal_container .right_meal {
+    bottom: -18px!important;
+    width: 23%!important;
+}
+  .lead_meal_container .left_meal {
+    left: -27px!important;
+}
+  .lead_meal_container {
+    padding: 40px 0!important;
+  }
+  .eating_plan_container .p {
+    padding: 0 20px!important;
+}
+  .last_cards_res li {
+    padding: 40px 20px!important;
+}
+  .last_cards_res {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 20px!important;
+    margin-top: 20px!important;
+}
+  .slick-slider {
+    padding-left: 0!important;
+}
+  .eating_plan_container_mob{
+    max-width: 100%!important;
+  }
+  
+  .eating_plan_container .p {
+    width: 100%!important;
+}
+  .index_m_container {
+    padding: 40px 20px!important;
+}
+  .index_m_container .p {
+    width: 100%!important;
+}
+  .index_m_container .h {
+    width: 100%!important;
+}
+  .diagnostica_cards_res li {
+    padding: 20px!important;
+}
+  .diagnostica_cards_res {
+    grid-template-columns: repeat(1, 1fr)!important;
+    gap: 12px!important;
+}
+  .res_diagram_container .h {
+    width: 87%!important;
+}
+  .res_diagram_container{
+    background-image: url("../images/steps.png");
+    background-size: 25px;
+    background-position: bottom 26px left;
+    background-repeat: no-repeat;
+  }
+  .my_legend{
+    left: 11%!important;
+  }
+  
+  .my_legend .label {
+    margin-bottom: 8px;
+}
+  .my_legend {
+    position: relative!important;
+    height: auto!important;
+}
+  .res_diagram_container {
+    box-shadow: none!important;
+    border-radius: 0!important;
+}
   .lead_res_container img {
     width: 28%!important;
   }
@@ -375,9 +479,14 @@ justify-content: center;
 
 
 @media screen and (max-width: 430px) {
+
   .container_988 {
     max-width: 100%!important;
     margin: 0 20px!important;
+  }
+  .container_988_2 {
+    max-width: 100%!important;
+    margin: 0!important;
   }
 
   
@@ -393,6 +502,10 @@ justify-content: center;
   max-width: 988px;
   margin: auto;
 }
+.container_988_2{
+  max-width: 988px;
+  margin: auto;
+}
 .container_1124 {
   max-width: 1124px;
   margin: auto;
@@ -403,6 +516,18 @@ padding: 8px 20px;
 }
 
 .lead_res_container{
+  background: #272929;
+  border-radius: 30px;
+  padding: 68px 68px 44px;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lead_meal_container {
   background: #272929;
   border-radius: 30px;
   padding: 68px 68px 44px;
@@ -446,6 +571,12 @@ padding: 8px 20px;
   width: 25%;
   bottom: 0;
 }
+.lead_meal_container img {
+  position: absolute;
+  z-index: 0;
+  width: 25%;
+  bottom: 0;
+}
 .lead_res_container .left {
   left: 0;
 }
@@ -454,7 +585,7 @@ padding: 8px 20px;
 }
 
 .res_diagram_container {
-  background: inherit;  
+  /* background: inherit;   */
   box-shadow: 0px 0px 30px rgba(66, 74, 72, 0.06);
   border-radius: 30px;
   margin: 20px 0 20px;
